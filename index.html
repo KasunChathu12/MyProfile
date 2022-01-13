@@ -3,37 +3,362 @@
 <head>
     <meta charset="UTF-8">
     <title>My Profile</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <style>
+
+       body>section:nth-child(1){
+           background-color: black;
+
+           width: 1423px;
+           height: 40px;
+
+       }
+
+
+       body>section:nth-child(1)>nav>a{
+           padding-left: 160px;
+           padding-top:10px;
+           color: white;
+           text-decoration: none;
+       }
+       body>section:nth-child(2)>div.home1{
+
+           /*text-align: center;*/
+          /* top: 50%;
+           left: 50%;*/
+       }
+       body>section:nth-child(2)>div>header>h1{
+           font-family:cursive;
+           position: absolute;
+           top: 17%;
+           left: 4%;
+           font-size:90px;
+       }
+       body>section:nth-child(2)>div>header>h2{
+           position: absolute;
+           font-family:Chiller;
+           top: 65%;
+           left: 4%;
+           font-size:70px;
+       }
+       body>section:nth-child(3){
+           width: 1423px;
+           height: 790px;
+       }
+       body>section:nth-child(4){
+           position: relative;
+           width: 1423px;
+           height: 790px;
+       }
+       body>section:nth-child(5){
+           position: relative;
+           width: 1423px;
+           height: 790px;
+       }
+       body>section:nth-child(6){
+           position: relative;
+           width: 1423px;
+           height: 790px;
+       }
+       body>section:nth-child(7){
+           position: relative;
+           width: 1423px;
+           height: 790px;
+       }
+       body>section:nth-child(3)>section:nth-child(1)>img{
+
+           width: 465px;
+           height: 650px;
+       }
+       body>section:nth-child(3){
+           position:relative ;
+       }
+       body>section:nth-child(3)>section:nth-child(1){
+           position: absolute;
+           top: 76px;
+           left: 5%;
+           width: 465px;
+           height: 650px;
+           display: inline;
+
+
+       }
+
+       body>section:nth-child(3)>section:nth-child(2)>h2{
+           display: inline;
+       }
+       body>section:nth-child(3)>section:nth-child(2){
+           position: absolute;
+           top: 76px;
+           left: 50%;
+           width: 506px;
+
+
+       }
+       body>section:nth-child(3)>section:nth-child(2)>h1{
+           font-size: 90px;
+           position: absolute;
+           top: 2px;
+           margin: 0;
+
+
+           left:16%;
+       }
+       body>section:nth-child(3)>section:nth-child(2)>h2{
+           font-size: 28px;
+           position: absolute;
+           top: 225px;
+           left: -4%;
+           width: 700px;
+       }
+
+       body>section:nth-child(4)>header>h1{
+           position: absolute;
+           font-size: 5em;
+           left: 353px;
+           margin: 0
+
+       }
+       body>section:nth-child(4)>main>section:nth-child(1)>p{
+           position: absolute;
+           left: 30px;
+           top: 120px;
+           font-size: 28px;
+       }
+       body>section:nth-child(4)>main>section:nth-child(1)>div:nth-child(2){
+            position: absolute;
+           left: 668px;
+           top: 173px;
+       }
+       body>section:nth-child(4)>main>section:nth-child(1)>img{
+           position: absolute;
+           left: 1080px;
+           top: 120px;
+       }
+       body>section:nth-child(4)>main>section:nth-child(1)>div:nth-child(4){
+           position: absolute;
+           left: 1049px;
+           top: 285px;
+       }
+       body>section:nth-child(4)>main>section:nth-child(2)>p{
+           position: absolute;
+           left: 30px;
+           top: 358px;
+           font-size: 28px;
+       }
+       body>section:nth-child(4)>main>section:nth-child(2)>div:nth-child(2){
+           position: absolute;
+           left: 668px;
+           top: 406px;
+       }
+       body>section:nth-child(4)>main>section:nth-child(2)>img{
+           position: absolute;
+           left: 1080px;
+           top: 352px;
+       }
+       body>section:nth-child(4)>main>section:nth-child(2)>div:nth-child(4){
+           position: absolute;
+           left: 1024px;
+           top: 500px;
+       }
+       body>section:nth-child(4)>main>section:nth-child(3)>p{
+           position: absolute;
+           left: 30px;
+           top: 552px;
+           font-size: 28px;
+       }
+       body>section:nth-child(4)>main>section:nth-child(3)>div:nth-child(2){
+           position: absolute;
+           left: 668px;
+           top: 611px;
+       }
+       body>section:nth-child(4)>main>section:nth-child(3)>img{
+           position: absolute;
+           left: 1029px;
+           top: 569px;
+       }
+       body>section:nth-child(4)>main>section:nth-child(3)>div:nth-child(4){
+           position: absolute;
+           left: 1005px;
+           top: 634px;
+       }
+       body>section:nth-child(5)>section:nth-child(1){
+           display: inline;
+           position: absolute;
+       }
+       body>section:nth-child(5)>section:nth-child(1)>img{
+           top: 217px;
+           position: absolute;
+           left: 39px;
+       }
+       body>section:nth-child(5)>section:nth-child(2){
+           display: inline;
+
+
+       }
+       body>section:nth-child(5)>section:nth-child(2)>header>h1{
+           font-size: 80px;
+           position: absolute;
+           left: 577px;
+
+       }
+       body>section:nth-child(5)>section:nth-child(2)>main>ul{
+           font-size: 30px;
+           position: absolute;
+           left: 816px;
+           top: 138px;
+       }
+       body>section:nth-child(5)>section:nth-child(2)>main>ul>li{
+           padding-top: 30px;
+       }
+       body>section:nth-child(6)>header{
+           display: inline;
+           position: absolute;
+           font-size: 30px;
+           left: 435px;
+           top: -26px;
+       }
+       body>section:nth-child(6)>h3{
+           display: inline;
+           position: absolute;
+           font-size: 39px;
+           left: 162px;
+           top: 54px;
+       }
+
+       body>section:nth-child(6)>main{
+           display: inline;
+           position: absolute;
+           left: 126px;
+           top: 101px;
+           font-size: 36px;
+       }
+       body>section:nth-child(7)>section:nth-child(2)>img{
+           position: absolute;
+           left: 727px;
+           top: 26px;
+       }
+       body>section:nth-child(7)>section:nth-child(2)>h3{
+           position: absolute;
+           display: inline;
+           left: 861px;
+           top: 597px;
+           font-size: 33px;
+       }
+       body>section:nth-child(7)>section:nth-child(1)>header{
+           position: absolute;
+           top: 13px;
+           left: 20px;
+           font-size: 30px;
+       }
+       body>section:nth-child(7)>section:nth-child(1)>main{
+           position: absolute;
+           top: 353px;
+           left: 20px;
+           font-size: 30px;
+       }
+
+       body>section:nth-child(6)>main{
+           width: 700px;
+           height: 400px;
+           position: absolute;
+           left: 0;
+           right: 0;
+           top: 185px;
+           bottom: 100px;
+           margin:auto;
+           overflow: hidden;
+           border: 5px solid #d7c6c6d6;;
+       }
+       body>section:nth-child(6)>main>section:nth-child(1){
+           width: 300%;
+           height: 100%;
+           position: absolute;
+           display: flex;
+           animation-name: slideme;
+           animation-duration: 10s;
+           animation-direction: alternate;
+           animation-iteration-count: infinite;
+       }
+
+       body>section:nth-child(6)>main>section:nth-child(1)>div{
+           width: 100%;
+       }
+       body>section:nth-child(6)>main>section:nth-child(1)>div:nth-child(1){
+           background: url("assets/images/img32.jpg");
+           background-size: cover;
+           background-position: center;
+       }
+       body>section:nth-child(6)>main>section:nth-child(1)>div:nth-child(2){
+           background: url("assets/images/img33.png");
+           background-size: cover;
+           background-position: center;
+       }
+       body>section:nth-child(6)>main>section:nth-child(1)>div:nth-child(3){
+           background: url("assets/images/img34.png");
+           background-size: cover;
+           background-position: center;
+       }
+
+
+
+
+
+       body>body>section:nth-child(6)>main>section:nth-child(1){
+           position: absolute;
+           width: 100%;
+           height: max-content;
+           text-align: center;
+           color: #e7e1e1;
+           font-weight: bold;
+
+           font-size: 30px;
+       }
+
+       @keyframes slideme {
+           0%,22%{
+               transform: translateX(0);
+           }
+           33%,55%{
+               transform: translateX(-33.3%);
+           }
+           66%,100%{
+               transform: translateX(-66.6%);
+           }
+
+       }
+    </style>
 </head>
 <body>
-<section style="background-color: black" >
+<section>
     <nav class="menu">
-            <a href="#Home" style="color: white" >Home</a>
-            <a href="#About" style="color: white">About</a>
-            <a href="#Education" style="color: white">Education</a>
-            <a href="#Skill" style="color: white">Skills</a>
-            <a href="#Projects" style="color: white">Projects</a>
-            <a href="#contactME" style="color: white">Contact</a>
+            <a href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Education">Education</a>
+            <a href="#Skill">Skills</a>
+            <a href="#Projects">Projects</a>
+            <a href="#contactME">Contact</a>
 
     </nav>
 </section>
 <section id="Home">
-    <div class="home">
-        <img src="assets/images/homePagePhoto.jpg" alt="home Page Photo" width="1440" height="915" >
-        <header><h1>Kasun Chathuranga</h1></header>
+    <div class="home1">
+        <img src="assets/images/homePagePhoto.jpg" alt="home Page Photo" width="1423" height="915" >
+        <header><h1>Kasun <br>Chathuranga</h1></header>
         <header><h2>I'm a Software Developer</h2></header>
     </div>
 
 </section>
 <section style="background-color:rgba(229, 229, 229, 1)" id="About" >
     <section>
-        <img src="assets/images/aboutPagePhoto.JPG" alt="about Page Photo" width="502" height="703">
+        <img src="assets/images/aboutPagePhoto.JPG" alt="about Page Photo" >
     </section>
     <section>
-        <header>About</header>
-        <h2>I'm a guy who do my best for My future,My family and my targets</h2>
+        <h1>About</h1>
+        <h2>I'm a guy who do my best for My future,<br>My family and my targets</h2>
     </section>
 </section>
-<section id="Education">
+<section id="Education" >
     <header>
         <h1>My Education So Far</h1>
     </header>
@@ -82,13 +407,21 @@
         </main>
     </section>
 </section>
-<section style="background-color: red" id="Projects">
+<section style="background-color: #efe2ff" id="Projects">
     <header><h1>Projects I Have Done</h1></header>
+    <h3>I have done a lot of different projects. You can see few projects of it <br>on below</h3>
     <main>
-        <h3>I have done a lot of different projects. You can see few projects of it <br>on below</h3>
+
+        <section>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+
     </main>
+
 </section>
-<section style="background-color: thistle" id="contactME">
+<section style="background-color: rgb(227,239,220)" id="contactME">
     <section>
         <header><h1>If You Want To<br>Send a Massage To Me,<br>This is For You</h1></header>
         <main>
@@ -107,7 +440,7 @@
     </section>
     <section>
         <img src="assets/images/contactPagePhoto.png" alt="" width="640" height="590">
-        <p><h3>You Can Also Contact Me Via  Social Media Platforms</h3></p>
+        <p><h3>You Can Also Contact Me Via <br> Social Media Platforms</h3></p>
     </section>
 </section>
 </body>
